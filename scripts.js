@@ -5,11 +5,12 @@ for (var i=0; i<guardianHeroinData.length; i++) {
 						'<div class="mainQuote">'+rowData.mainQuote+'</div>'+
 						'<div class="readMore">Read More</div>'+
 						'<div class="moreInfo">'+
+							'<div class="wholeQuote">'+rowData.wholeQuote+'</div>'+
 							'<div class="source">'+rowData.source+'</div>'+
 							'<div class="yearsClean">'+rowData.yearsClean+'</div>'+
 							'<div class="location">'+rowData.location+'</div>'+
-							'<div class="wholeQuote">'+rowData.wholeQuote+'</div>'+
 						'</div>'+
+						'<div class="empty"></div>'+
 					'</div>');
 
 $template.find(".readMore").on("click", toggleContent)
