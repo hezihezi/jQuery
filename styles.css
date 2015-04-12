@@ -1,42 +1,63 @@
 /*http://www.motherjones.com/media/2015/04/panoply-social-network-app-fighting-depression */
 /*Trying to replicate the Mother Jones Style*/
 
-.mainQuote{
-  border-top: 4px solid #000000;
-  border-bottom: 4px solid #000000;
-  padding: 15px 0;
-  margin: 8px 0 10px 22px;
-  display: block;
-  width: 200px;
-  float: right;
-  font-family: Georgia,"Times New Roman","Bitstream Vera Serif",serif;
-  font-size: 22px;
-  line-height: 26px;
-  letter-spacing: -0.5px;
+.quoteContainer {
+	clear: both;
 }
 
-.source{
-  display: inline-block;
-  font-size: 2em;
-  font-weight: bold;
- }
- 
-.yearsClean{
-  display: inline-block;
-  font-size: 2em;
+.mainQuote {
+	border-top: 4px solid #000000;
+	border-bottom: 4px solid #000000;
+	padding: 15px 0;
+	margin: 8px 0 10px 22px;
+	display: block;
+	width: 200px;
+	float: right;
+	font-family: Georgia, "Times New Roman", "Bitstream Vera Serif", serif;
+	font-size: 22px;
+	line-height: 26px;
+	letter-spacing: -0.5px;
 }
 
-.location{
-  display: inline-block;
-  font-size: 2em;
-  color: #808080;
+.source {
+	display: inline-block;
+	font-size: 2em;
+	font-weight: bold;
 }
 
-.wholeQuote{
-  display: block;
-  font-family: Verdana, Geneva, sans-serif;
-  -webkit-margin-before: 1em;
-  -webkit-margin-after: 1em;
-  -webkit-margin-start: 0px;
-  -webkit-margin-end: 0px;
+.yearsClean {
+	display: inline-block;
+	font-size: 2em;
+}
+
+.location {
+	display: inline-block;
+	font-size: 2em;
+	color: #808080;
+}
+
+.wholeQuote {
+	display: block;
+	font-family: Verdana, Geneva, sans-serif;
+	-webkit-margin-before: 1em;
+	-webkit-margin-after: 1em;
+	-webkit-margin-start: 0px;
+	-webkit-margin-end: 0px;
+}
+
+.readMore {
+	color: red;
+	font-family: Verdana, Geneva, sans-serif;
+	-webkit-margin-before: 1em;
+	-webkit-margin-after: 2em;
+	-webkit-margin-start: 0px;
+	-webkit-margin-end: 0px;
+}
+
+.moreInfo {
+	display: none;
+}
+
+.expanded .moreInfo {
+	display: block;
 }
