@@ -15,13 +15,14 @@ for (var i=0; i<guardianHeroinData.length; i++) {
 						'<div class="empty"></div>'+
 					'</div>');
 
-$template.find(".readMore").on("click", toggleContent)
-$template.find(".readMore").on("mouseover", turnGrey)
-$template.find(".readMore").on("mouseleave", turnGreen)
+$template.find(".readMore").on("click", toggleContent)//When click on Read More, toggle the content in the moreInfo div.
+$template.find(".readMore").on("mouseover", turnGrey)//When mouseover Read More, turns grey, cursor to pointer.
+$template.find(".readMore").on("mouseleave", turnGreen)//When mouseleave Read More, turn back to green.
+
 
 function toggleContent(){
 		
-	$quoteContainer = $(this).parent();
+	$quoteContainer = $(this).parent();//Create Var. DRY.
 	
 	if($quoteContainer.hasClass("expanded")){// quoteContainer has class .expanded (you can see content!), so remove content!
 	   $quoteContainer.removeClass("expanded");
