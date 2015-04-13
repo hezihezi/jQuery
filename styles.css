@@ -54,4 +54,7 @@
 
 .expanded .moreInfo {
 	display: block;
-}
+}/*
+  * When there is the expanded class, display the stuff in moreInfo.
+  */
+
