@@ -1,57 +1,51 @@
-/*http://www.motherjones.com/media/2015/04/panoply-social-network-app-fighting-depression */
-/*Trying to replicate the Mother Jones Style*/
-
-.quoteContainer {
-	clear: both;
-}
+/* http://techcrunch.com/
+ * used TechCrunch as my style guide
+ */
 
 .mainQuote {
-	border-top: 4px solid #000000;
-	border-bottom: 4px solid #000000;
-	padding: 15px 0;
-	margin: 8px 0 10px 22px;
-	display: block;
-	width: 200px;
-	float: right;
-	font-family: Georgia, "Times New Roman", "Bitstream Vera Serif", serif;
-	font-size: 22px;
-	line-height: 26px;
-	letter-spacing: -0.5px;
+  background: #f9f9f9;
+  font: 130%/1.625 "Open Sans",HelveticaNeue,Helvetica,Arial,sans-serif;
+  color: #3e433e;
 }
 
 .source {
-	display: inline-block;
-	font-size: 2em;
-	font-weight: bold;
+  background: #f9f9f9;
+  font: italic 120% "Open Sans",HelveticaNeue,Helvetica,Arial,sans-serif;
+  color: #3e433e;
 }
 
 .yearsClean {
-	display: inline-block;
-	font-size: 2em;
+  background: #f9f9f9;
+  font: 90% "Open Sans",HelveticaNeue,Helvetica,Arial,sans-serif;
+  color: #3e433e;
 }
 
 .location {
-	display: inline-block;
-	font-size: 2em;
-	color: #808080;
+  background: #f9f9f9;
+  font: 80%/1.5 "Open Sans",HelveticaNeue,Helvetica,Arial,sans-serif;
+  color: green;
 }
 
 .wholeQuote {
-	display: block;
-	font-family: Verdana, Geneva, sans-serif;
-	-webkit-margin-before: 1em;
-	-webkit-margin-after: 1em;
-	-webkit-margin-start: 0px;
-	-webkit-margin-end: 0px;
+  background: #f9f9f9;	
+  font: bold 90% "Open Sans",HelveticaNeue,Helvetica,Arial,sans-serif;
+  color: #3e433e;
 }
 
 .readMore {
-	color: red;
-	font-family: Verdana, Geneva, sans-serif;
-	-webkit-margin-before: 1em;
-	-webkit-margin-after: 2em;
-	-webkit-margin-start: 0px;
-	-webkit-margin-end: 0px;
+	background: #f9f9f9;
+    font: bold 90%/1.625 "Open Sans",HelveticaNeue,Helvetica,Arial,sans-serif;
+    font-style: bold;
+    color: green;
+}
+
+.space {
+	background: #f9f9f9;
+	height: 5px
+}
+
+.empty {
+	height: 10px
 }
 
 .moreInfo {
